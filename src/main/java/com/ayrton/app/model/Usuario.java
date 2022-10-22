@@ -1,4 +1,4 @@
-package com.ayrton.veiculosapi.model;
+package com.ayrton.app.model;
 
 import lombok.Getter;
 import lombok.Setter;

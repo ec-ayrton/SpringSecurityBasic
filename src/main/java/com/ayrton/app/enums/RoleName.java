@@ -1,4 +1,4 @@
-package com.ayrton.veiculosapi.enums;
+package com.ayrton.app.enums;
 
 public enum RoleName {
     ROLE_ADMIN,

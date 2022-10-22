@@ -1,6 +1,6 @@
-package com.ayrton.veiculosapi.model;
+package com.ayrton.app.model;
 
-import com.ayrton.veiculosapi.enums.RoleName;
+import com.ayrton.app.enums.RoleName;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.security.core.GrantedAuthority;

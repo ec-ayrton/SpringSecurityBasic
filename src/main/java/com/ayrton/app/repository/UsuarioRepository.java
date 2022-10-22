@@ -1,6 +1,6 @@
-package com.ayrton.veiculosapi.repository;
+package com.ayrton.app.repository;
 
-import com.ayrton.veiculosapi.model.Usuario;
+import com.ayrton.app.model.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Repository;

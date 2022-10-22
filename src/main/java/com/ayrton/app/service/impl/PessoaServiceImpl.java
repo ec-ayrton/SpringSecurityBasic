@@ -1,8 +1,8 @@
-package com.ayrton.veiculosapi.service.impl;
+package com.ayrton.app.service.impl;
 
-import com.ayrton.veiculosapi.model.Pessoa;
-import com.ayrton.veiculosapi.repository.PessoaRepository;
-import com.ayrton.veiculosapi.service.PessoaService;
+import com.ayrton.app.model.Pessoa;
+import com.ayrton.app.repository.PessoaRepository;
+import com.ayrton.app.service.PessoaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -22,7 +22,6 @@ public class PessoaServiceImpl implements PessoaService {
         return pessoaRepository.save(pessoa);
     }
 
-    @Override
     public void excluirPessoa(Long id) {
         pessoaRepository.deleteById(id);
     }

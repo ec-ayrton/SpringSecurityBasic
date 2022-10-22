@@ -1,6 +1,6 @@
-package com.ayrton.veiculosapi.service;
+package com.ayrton.app.service;
 
-import com.ayrton.veiculosapi.model.Pessoa;
+import com.ayrton.app.model.Pessoa;
 
 import java.util.List;
 

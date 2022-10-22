@@ -1,7 +1,6 @@
-package com.ayrton.veiculosapi.config.security;
+package com.ayrton.app.security;
 
-import com.ayrton.veiculosapi.model.Usuario;
-import com.ayrton.veiculosapi.repository.UsuarioRepository;
+import com.ayrton.app.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;

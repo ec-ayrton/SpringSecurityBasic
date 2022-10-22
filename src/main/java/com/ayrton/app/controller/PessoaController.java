@@ -1,7 +1,8 @@
-package com.ayrton.veiculosapi.controller;
+package com.ayrton.app.controller;
 
-import com.ayrton.veiculosapi.model.Pessoa;
-import com.ayrton.veiculosapi.service.PessoaService;
+
+import com.ayrton.app.model.Pessoa;
+import com.ayrton.app.service.PessoaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
