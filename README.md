@@ -10,7 +10,7 @@ Projeto para validar estudos sobre o uso do Spring Security.
 ### Sobre o projeto
 - Foi utilizado o banco de dados Postgres para persistir os dados utilizados no projeto.
 - O Flyway é usado para gerenciar as migrations e possibilitar a mesma versão do banco e seus dados para quem quiser testar e estudar o projeto.
-- O projeto possui dois usuários : akon e bob. 
+- A aplicação usa como forma de autenticação a basic auth com dois usuários :akon e bob.  Ambos usam a senha: 'senha123' .
 - 'akon' é o usuario 'Admin' enquanto 'bob' é 'user'.
 - Temos três verbos HTTP para um unico endpoint: http://localhost:8080/pessoa .
 - São eles GET, POST e DELETE. Onde GET pode ser requisitado por qualquer usuário, enquanto POST e DELETE apenas por usuários 'admin'.
